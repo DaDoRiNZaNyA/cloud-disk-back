@@ -1,0 +1,5 @@
+{
+    "serverPort": 5000,
+    "dbURL": "mongodb+srv://aluchock:admin123@cloud.tagfkfb.mongodb.net/?retryWrites=true&w=majority",
+    "secretKey": "secret"
+}
