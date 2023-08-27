@@ -2,5 +2,6 @@
     "serverPort": 5000,
     "dbURL": "mongodb+srv://aluchock:admin123@cloud.tagfkfb.mongodb.net/?retryWrites=true&w=majority",
     "secretKey": "secret",
-    "filePath": "C:/Users/Даниил/Desktop/web/cloud-disk/back/files"
+    "filePath": "C:/Users/Даниил/Desktop/web/cloud-disk/back/files",
+    "staticPath": "C:/Users/Даниил/Desktop/web/cloud-disk/back/static"
 }

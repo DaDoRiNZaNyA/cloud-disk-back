@@ -25,7 +25,7 @@ class FileService {
     const filePath = this.getPath(file);
 
     if (file.type === "dir") {
-      this.deleteDirectory(filePath); // Вызываем функцию для рекурсивного удаления папки
+      this.deleteDirectory(filePath);
     } else {
       fs.unlinkSync(filePath);
     }
@@ -44,7 +44,7 @@ class FileService {
         }
       });
 
-      fs.rmdirSync(dirPath); // Удаляем саму пустую папку после удаления всех файлов
+      fs.rmdirSync(dirPath);
     }
   }
 
